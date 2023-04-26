@@ -19,8 +19,8 @@
 }
 .logo img{
     height:210px;
-    width: 200px;
-    padding-left: 00px;
+    width: 430px;
+    padding-left: 200px;
     border-radius: 10px;
 }
 .buscador{
@@ -29,10 +29,10 @@
     width: 100%;
 }
 .form{
-    padding-left: 420px;
+    padding-left: 620px;
 }
 .form input{
-    width: 200px;
+    width: 230px;
 }
 .container-ayuda{
     display: flex;
@@ -59,6 +59,7 @@
     flex-direction: row;
     gap: 20px;
     list-style: none;
+    margin: auto;
 }
 .navbar li a{
     text-decoration: none;
