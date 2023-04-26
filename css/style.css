@@ -257,3 +257,19 @@ background-color: #FFA559;
     grid-template-rows: 350px 2530px 200px;
 }
 
+
+@media(max-widht:1024px){
+
+}
+@media(max-widht:768px){
+
+}
+@media(max-widht:425px){
+
+}
+@media(max-widht:375px){
+
+}
+@media(max-widht:320px){
+
+}
