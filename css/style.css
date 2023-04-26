@@ -5,7 +5,7 @@
 }
 
 .header{
-    background-color: #FFA559;
+    background-color: #394867;
     /* display: flex; */
     gap: 20px;
     justify-content: space-evenly;
@@ -67,7 +67,7 @@
 
 
 .main{
-    background-color: #454545;
+    background-color: #9BA4B5;
 }
 
 .index-cards{
@@ -136,14 +136,37 @@
     color: white;
 }
 .footer{
-background-color: #FFA559;
+background-color: #394867;
 }
 .container-footer{
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: ;
 }
-
+.ubicacion a{
+    color: black;
+    text-decoration: none;
+}
+.whatsapp a{
+    color: black;
+    text-decoration: none;
+}
+.instagram a{
+    color: black;
+    text-decoration: none;
+}
+.twiter a{
+    color: black;
+    text-decoration: none;
+}
+.facebook a{
+    color: black;
+    text-decoration: none;
+}
+.navbar-footer li a{
+    color: black;
+    text-decoration: none;
+}
 /* main de productos */
 .container-cards{
     display: grid;
@@ -232,29 +255,25 @@ background-color: #FFA559;
 }
 
 /* main de quienes somos */
-.container-quienessomos{
-    display: grid;
-    grid-template: repeat(3,500px) / repeat(2,740px);
-    justify-items: center;
-    align-items: center;
-    color: white;
-    
+.parrafo-quienessomos{
+    height: 500px;
 }
 .titulo-main{
-    grid-column: 1 / 3;
-    grid-row: 1 / 2;
-    width: 1000px;
-    font-size: 70px;
+    height: 250px;
+    padding-top: 20px;
+}
+.titulo-main h2{
+    text-align: center;
     text-decoration: underline;
 }
-.parrafo-quienessomos{
-    grid-column: 1 / 3;
-    grid-row: 2 / 4;
-    font-size: 45px;
-    height: 500px;
+.parrafo-quienessomos p{
+    width: 1030px;
+    height: 900px;
+    padding: 20px;
+    font-size: 35px;
+    text-decoration: solid;
     
 }
-
 
 .contenedor{
     display: grid;
