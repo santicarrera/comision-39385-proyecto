@@ -133,7 +133,7 @@ background-color: #FFA559;
 .container-footer{
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: ;
+    grid-template-rows: 1fr 1fr;
 }
 
 /* main de productos */
