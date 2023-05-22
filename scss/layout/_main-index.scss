@@ -1,0 +1,96 @@
+.main{
+    background-color: $background-secundario;
+    .contenedor-main{
+        height: 1350px;
+        .index-cards{
+            display: flex;
+            flex-direction: column;
+            height: 1350px;
+            gap: 20px;
+            padding: 15px 10px;
+            flex-wrap: wrap;
+            .promociones-card{
+                background-image: url(https://images.unsplash.com/photo-1565814636199-ae8133055c1c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 280px;
+                height: 200px;
+                border: solid #212A3E;
+                border-radius: 10px;
+            }
+            .remeras-card{
+                background-image: url(https://images.unsplash.com/photo-1585036156261-1e2ac055414d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 280px;
+                height: 200px;
+                border: solid #212A3E;
+                border-radius: 10px;
+            }
+            .zapatillas-card{
+                background-image: url(https://images.unsplash.com/photo-1600269452121-4f2416e55c28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 280px;
+                height: 200px;
+                border: solid #212A3E;
+                border-radius: 10px;
+            }
+            .botines-card{
+                background-image: url(https://images.unsplash.com/photo-1612387049695-637b743f80ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=694&q=80);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 280px;
+                height: 200px;
+                border: solid #212A3E;
+                border-radius: 10px;
+            }
+            .camperas-card{
+                background-image: url(https://images.unsplash.com/photo-1589178698744-b0c65639636e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80);
+                background-repeat: no-repeat;
+                background-position: top;
+                background-size: cover;
+                width: 280px;
+                height: 200px;
+                border: solid #212A3E;
+                border-radius: 10px;
+            }
+            .pantalones-card{
+                background-image: url(https://images.unsplash.com/photo-1580906853305-5702e648164e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80);
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 280px;
+                height: 200px;
+                border: solid #212A3E;
+                border-radius: 10px;
+            }
+            .textos{
+                display: flex;
+                height: 200px;
+                justify-content: center;
+                align-items: center;
+                button{
+                    width: 125px;
+                    height: 25px;
+                    text-align: center;
+                    border-radius: 10px;
+                    background: transparent;
+                    border: 2px solid;
+                    color: #fff;
+                    cursor: pointer;
+                    position: relative;
+                    overflow: hidden;
+                }
+                button:hover{
+                    transform: scale(1.1);
+                    cursor: pointer;
+                    transition: all .5s;
+                }
+            }
+        }
+    }
+}

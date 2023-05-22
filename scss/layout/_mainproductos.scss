@@ -1,0 +1,36 @@
+.contenedor-productos{
+    display: grid;
+    grid-template-rows: 250px 5000px 430px;
+    .navbar{
+        width: 320px;
+        top: 250px;
+    }
+}
+.container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    .card{
+        width: 18rem;
+        display: flex;
+        flex-direction: column;
+        img{
+            width: 18rem;
+        }
+        .card-body{
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .btn-card{
+                color: #fff;
+                text-decoration: none;
+                background: #212A3E;
+                border: 3px solid black;
+                font-family: 'Courier New', Courier, monospace;
+                border-radius: 3px;
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.contenedor-comocomprar{
+    display: grid;
+    grid-template-rows: 250px 550px 400px;
+    .container-comocomprar{
+        display: flex;
+        flex-direction: column;
+        .titulo-comocomprar{
+            display: flex;
+            height: 70px;
+            align-items: center;
+            justify-content: center;
+        }
+        .parrafo-comocomprar{
+            display: flex;
+            padding: 0px 10px;
+        }
+    }
+}

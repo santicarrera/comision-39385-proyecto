@@ -1,0 +1,59 @@
+.footer{
+    background-color: $background-principal;
+    .container-footer{
+        display: grid;
+        grid-template-columns: 161px 161px;
+        grid-template-rows: 1fr;
+        .footer-contactos{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 160px;
+            .ubicacion a{
+                color: #fff;
+                text-decoration: none;
+            }
+            .whatsapp a{
+                color: #fff;
+                text-decoration: none;
+            }
+            .instagram a{
+                color: #fff;
+                text-decoration: none;
+            }
+            .twiter a{
+                color: #fff;
+                text-decoration: none;
+            }
+            .facebook a{
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+        .container-footer-navbar{
+            width: 160px;
+            nav{
+                width: 160px;
+            }
+            .navbar-footer{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                list-style: none;
+                gap: 10px; 
+                height: 300px;
+                li{
+                    a{
+                        color: #fff;
+                        text-decoration: underline;
+                    }
+                    a:hover{
+                        transition: .5s;
+                        background-color: #9BA4B5;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.contenedor-quienessomos{
+    display: grid;
+    grid-template-rows: 250px 500px 380px;
+    .container-quienessomos{
+        display: flex;
+        flex-direction: column;
+        .titulo-main{
+            display: flex;
+            height: 70px;
+            align-items: center;
+            justify-content: center;
+        }
+        .parrafo-quienessomos{
+            display: flex;
+            height: 250px;
+            padding: 0px 10px;
+        }
+    }
+}

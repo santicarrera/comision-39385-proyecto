@@ -1,0 +1,389 @@
+@media(min-width:1024px){
+    .contenedor-index{
+        display: grid;
+        grid-template-rows: 440px 2050px 330px;
+    }
+    .header{
+        background-color: $background-principal;
+        gap: 20px;
+        justify-content: space-evenly;
+        align-items: center;
+        .container-ayuda{
+            display: flex;
+            flex-direction: row;
+            height: 40px;
+            .ayuda-items{
+                display: flex;
+                width: 150px;
+                gap: 15px;
+            }
+        }
+        .logo{
+            display: flex;
+            height: 250px;
+            justify-content: center;
+            img{
+                height: 250px;
+                width: 250px;
+                border-radius: 25px;
+            }
+            img:hover{
+                height: 270px;
+                width: 275px;
+                transition: .5s;
+            }
+        }
+        .buscador{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: center;
+            padding: 10px 0px 10px 0px;
+            .form{
+                position: relative;
+            }
+            .form input{
+                width: 270px;
+                height: 35px;
+                border-radius: 6px;
+                font-size: 20px;
+                padding: 0 15px;
+                border: 2px solid black;
+                color: black;
+                outline: none;
+            }
+            .form label{
+                position: absolute;
+                top: 50%;
+                left: 15px;
+                transform: translateY(-50%);
+                color: black;
+                pointer-events: none;
+                transition: .3s;
+            }
+        }
+        .nombre-proyecto{
+            display: flex;
+            justify-content: center;
+            font-size: 22px;
+        }
+        .checkbtn{
+            color: #fff;
+            float: left;
+            margin: 0px 0px 10px 10px;
+            cursor: pointer;
+        }
+        #check{
+            display: none;
+        }
+        #check:checked ~ .navbar{
+            left: 0;
+        }
+        .navbar{
+            position: fixed;
+            width: 33%;
+            height: 100vh;
+            background-color: $background-principal;
+            top: 440px;
+            left: -100%;
+            text-align: left;
+            transition: all .5s;
+            padding-left: 10px;
+            li{
+                display: block;
+                margin: 50px 0px;
+                line-height: 30px;
+                a{
+                    font-size: 20px;
+                    color: black;
+                }
+                a:hover, a.active{
+                    background: none;
+                    color: white;
+            }
+            }
+        }
+        
+    }
+    .main{
+        background-color: $background-secundario;
+        .contenedor-main{
+            height: 2050px;
+            .index-cards{
+                display: flex;
+                flex-direction: column;
+                height: 2050px;
+                gap: 20px;
+                padding: 15px 10px;
+                flex-wrap: wrap;
+                align-content: center;
+                justify-content: flex-start;
+                .promociones-card{
+                    background-image: url(https://images.unsplash.com/photo-1565814636199-ae8133055c1c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    width: 420px;
+                    height: 300px;
+                    border: solid #212A3E;
+                    border-radius: 10px;
+                }
+                .remeras-card{
+                    background-image: url(https://images.unsplash.com/photo-1585036156261-1e2ac055414d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    width: 420px;
+                    height: 300px;
+                    border: solid #212A3E;
+                    border-radius: 10px;
+                }
+                .zapatillas-card{
+                    background-image: url(https://images.unsplash.com/photo-1600269452121-4f2416e55c28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    width: 420px;
+                    height: 300px;
+                    border: solid #212A3E;
+                    border-radius: 10px;
+                }
+                .botines-card{
+                    background-image: url(https://images.unsplash.com/photo-1612387049695-637b743f80ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=694&q=80);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    width: 420px;
+                    height: 300px;
+                    border: solid #212A3E;
+                    border-radius: 10px;
+                }
+                .camperas-card{
+                    background-image: url(https://images.unsplash.com/photo-1589178698744-b0c65639636e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80);
+                    background-repeat: no-repeat;
+                    background-position: top;
+                    background-size: cover;
+                    width: 420px;
+                    height: 300px;
+                    border: solid #212A3E;
+                    border-radius: 10px;
+                }
+                .pantalones-card{
+                    background-image: url(https://images.unsplash.com/photo-1580906853305-5702e648164e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    width: 420px;
+                    height: 300px;
+                    border: solid #212A3E;
+                    border-radius: 10px;
+                }
+                .textos{
+                    display: flex;
+                    height: 300px;
+                    justify-content: center;
+                    align-items: center;
+                    button{
+                        width: 225px;
+                        height: 35px;
+                        font-size: 20px;
+                        text-align: center;
+                        border-radius: 10px;
+                        background: transparent;
+                        border: 2px solid;
+                        color: #fff;
+                        cursor: pointer;
+                        position: relative;
+                        overflow: hidden;
+                    }
+                    button:hover{
+                        transform: scale(1.1);
+                        cursor: pointer;
+                        transition: all .5s;
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        background-color: $background-principal;
+        .container-footer{
+            display: grid;
+            grid-template-columns: 512px 512px;
+            grid-template-rows: 1fr;
+            .footer-contactos{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                width: 512px;
+                .ubicacion a{
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 23px;
+                }
+                .whatsapp a{
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 23px;
+                }
+                .instagram a{
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 23px;
+                }
+                .twiter a{
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 23px;
+                }
+                .facebook a{
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 23px;
+                }
+            }
+            .container-footer-navbar{
+                width: 512px;
+                nav{
+                    width: 512px;
+                }
+                .navbar-footer{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    list-style: none;
+                    gap: 10px; 
+                    height: 300px;
+                    li{
+                        a{
+                            color: #fff;
+                            text-decoration: underline;
+                            font-size: 23px;
+                        }
+                        a:hover{
+                            transition: .5s;
+                            background-color: #9BA4B5;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contenedor-productos{
+        display: grid;
+        grid-template-rows: 450px 3250px 430px;
+        .navbar{
+            width: 33%;
+            top: 449px;
+        }
+    }
+    .container-cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+        justify-content: center;
+        height: 3100px;
+        .card{
+            width: 18rem;
+            display: flex;
+            flex-direction: column;
+            border: 4px solid;
+            height: 326px;
+            img{
+                width: 280px;
+                height: 216px;
+            }
+            .card-body{
+                background-color: #fff;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 110px;
+                .card-title{
+                    font-size: 22px;
+                }
+                .card-text{
+                    font-size: 17px;
+                }
+                .btn-card{
+                    color: #fff;
+                    text-decoration: none;
+                    background: #212A3E;
+                    border: 3px solid black;
+                    font-family: 'Courier New', Courier, monospace;
+                    border-radius: 3px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .contenedor-quienessomos{
+        display: grid;
+        grid-template-rows: 450px 500px 380px;
+        .container-quienessomos{
+            display: flex;
+            flex-direction: column;
+            height: 500px;
+            .titulo-main{
+                display: flex;
+                font-size: 25px;
+                height: 70px;
+                align-items: center;
+                justify-content: center;
+            }
+            .parrafo-quienessomos{
+                display: flex;
+                align-items: center;
+                font-size: 24px;
+                height: 370px;
+                padding: 0px 10px;
+            }
+        }
+    }
+    .contenedor-preguntas{
+        display: grid;
+        grid-template-rows: 450px 900px 400px;
+        .container-preguntas{
+            display: flex;
+            flex-direction: column;
+            .titulo-preguntas{
+                display: flex;
+                height: 70px;
+                align-items: center;
+                justify-content: center;
+                font-size: 24px;
+                padding: 0px 10px;
+            }
+            .cuerpo-preguntas{
+                display: flex;
+                height: 750px;
+                align-items: center;
+                font-size: 24px;
+                padding: 0px 10px;
+            }
+        }
+    }
+    .contenedor-comocomprar{
+        display: grid;
+        grid-template-rows: 450px 700px 400px;
+        .container-comocomprar{
+            display: flex;
+            flex-direction: column;
+            .titulo-comocomprar{
+                display: flex;
+                height: 70px;
+                font-size: 24px;
+                align-items: center;
+                justify-content: center;
+            }
+            .parrafo-comocomprar{
+                display: flex;
+                height: 600px;
+                align-items: center;
+                font-size: 23px;
+                padding: 0px 10px;
+            }
+        }
+    }
+}
