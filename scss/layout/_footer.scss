@@ -5,8 +5,7 @@
         grid-template-columns: 161px 161px;
         grid-template-rows: 1fr;
         .footer-contactos{
-            display: flex;
-            flex-direction: column;
+            @include flex(column,none,none,none);
             gap: 20px;
             width: 160px;
             .ubicacion a{
@@ -14,20 +13,16 @@
                 text-decoration: none;
             }
             .whatsapp a{
-                color: #fff;
-                text-decoration: none;
+                @extend .ubicacion;
             }
             .instagram a{
-                color: #fff;
-                text-decoration: none;
+                @extend .ubicacion;
             }
             .twiter a{
-                color: #fff;
-                text-decoration: none;
+                @extend .ubicacion;
             }
             .facebook a{
-                color: #fff;
-                text-decoration: none;
+                @extend .ubicacion;
             }
         }
         .container-footer-navbar{
@@ -36,9 +31,7 @@
                 width: 160px;
             }
             .navbar-footer{
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
+                @include flex(column,none,center,none);
                 list-style: none;
                 gap: 10px; 
                 height: 300px;

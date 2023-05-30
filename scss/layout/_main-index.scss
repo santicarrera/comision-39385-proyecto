@@ -69,10 +69,8 @@
                 border-radius: 10px;
             }
             .textos{
-                display: flex;
+                @include flex(none,none,center,center);
                 height: 200px;
-                justify-content: center;
-                align-items: center;
                 button{
                     width: 125px;
                     height: 25px;

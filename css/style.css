@@ -153,9 +153,11 @@
         border-radius: 10px; }
       .main .contenedor-main .index-cards .textos {
         display: flex;
-        height: 200px;
+        flex-direction: none;
+        flex-wrap: none;
         justify-content: center;
-        align-items: center; }
+        align-items: center;
+        height: 200px; }
         .main .contenedor-main .index-cards .textos button {
           width: 125px;
           height: 25px;
@@ -181,21 +183,12 @@
     .footer .container-footer .footer-contactos {
       display: flex;
       flex-direction: column;
+      flex-wrap: none;
+      justify-content: none;
+      align-items: none;
       gap: 20px;
       width: 160px; }
-      .footer .container-footer .footer-contactos .ubicacion a {
-        color: #fff;
-        text-decoration: none; }
-      .footer .container-footer .footer-contactos .whatsapp a {
-        color: #fff;
-        text-decoration: none; }
-      .footer .container-footer .footer-contactos .instagram a {
-        color: #fff;
-        text-decoration: none; }
-      .footer .container-footer .footer-contactos .twiter a {
-        color: #fff;
-        text-decoration: none; }
-      .footer .container-footer .footer-contactos .facebook a {
+      .footer .container-footer .footer-contactos .ubicacion a, .footer .container-footer .footer-contactos .whatsapp a a, .footer .container-footer .footer-contactos .instagram a a, .footer .container-footer .footer-contactos .twiter a a, .footer .container-footer .footer-contactos .facebook a a {
         color: #fff;
         text-decoration: none; }
     .footer .container-footer .container-footer-navbar {
@@ -205,7 +198,9 @@
       .footer .container-footer .container-footer-navbar .navbar-footer {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        flex-wrap: none;
+        justify-content: center;
+        align-items: none;
         list-style: none;
         gap: 10px;
         height: 300px; }
@@ -477,7 +472,7 @@
         flex-direction: column;
         gap: 20px;
         width: 180px; }
-        .footer .container-footer .footer-contactos .ubicacion a {
+        .footer .container-footer .footer-contactos .ubicacion a, .footer .container-footer .footer-contactos .whatsapp a a, .footer .container-footer .footer-contactos .instagram a a, .footer .container-footer .footer-contactos .twiter a a, .footer .container-footer .footer-contactos .facebook a a {
           color: #fff;
           text-decoration: none; }
         .footer .container-footer .footer-contactos .whatsapp a {
@@ -767,7 +762,7 @@
         flex-direction: column;
         gap: 20px;
         width: 212px; }
-        .footer .container-footer .footer-contactos .ubicacion a {
+        .footer .container-footer .footer-contactos .ubicacion a, .footer .container-footer .footer-contactos .whatsapp a a, .footer .container-footer .footer-contactos .instagram a a, .footer .container-footer .footer-contactos .twiter a a, .footer .container-footer .footer-contactos .facebook a a {
           color: #fff;
           text-decoration: none; }
         .footer .container-footer .footer-contactos .whatsapp a {
@@ -1065,7 +1060,7 @@
         flex-direction: column;
         gap: 20px;
         width: 384px; }
-        .footer .container-footer .footer-contactos .ubicacion a {
+        .footer .container-footer .footer-contactos .ubicacion a, .footer .container-footer .footer-contactos .whatsapp a a, .footer .container-footer .footer-contactos .instagram a a, .footer .container-footer .footer-contactos .twiter a a, .footer .container-footer .footer-contactos .facebook a a {
           color: #fff;
           text-decoration: none;
           font-size: 23px; }
@@ -1385,7 +1380,7 @@
         flex-direction: column;
         gap: 20px;
         width: 512px; }
-        .footer .container-footer .footer-contactos .ubicacion a {
+        .footer .container-footer .footer-contactos .ubicacion a, .footer .container-footer .footer-contactos .whatsapp a a, .footer .container-footer .footer-contactos .instagram a a, .footer .container-footer .footer-contactos .twiter a a, .footer .container-footer .footer-contactos .facebook a a {
           color: #fff;
           text-decoration: none;
           font-size: 23px; }
@@ -1706,7 +1701,7 @@
         flex-direction: column;
         gap: 20px;
         width: 720px; }
-        .footer .container-footer .footer-contactos .ubicacion a {
+        .footer .container-footer .footer-contactos .ubicacion a, .footer .container-footer .footer-contactos .whatsapp a a, .footer .container-footer .footer-contactos .instagram a a, .footer .container-footer .footer-contactos .twiter a a, .footer .container-footer .footer-contactos .facebook a a {
           color: #fff;
           text-decoration: none;
           font-size: 23px; }
