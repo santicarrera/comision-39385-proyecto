@@ -39,23 +39,17 @@
             position: relative;
         }
         .form input{
-            width: 130px;
+            width: 170px;
             height: 30px;
             border-radius: 6px;
-            font-size: 18px;
-            padding: 0 15px;
+            font-size: 0.875rem;
+            padding: 0 5px;
             border: 2px solid black;
             color: black;
             outline: none;
         }
         .form label{
-            position: absolute;
-            top: 50%;
-            left: 15px;
-            transform: translateY(-50%);
-            color: black;
-            pointer-events: none;
-            transition: .3s;
+            background: transparent;
         }
     }
     .nombre-proyecto{
@@ -84,6 +78,7 @@
         left: -100%;
         text-align: center;
         transition: all .5s;
+        z-index: 1;
         li{
             display: block;
             margin: 50px 0px;
